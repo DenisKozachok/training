@@ -22,7 +22,7 @@ public class BaseUiTest {
             Configuration.startMaximized = true;
         } else {
             Configuration.browserSize = "1920x1080";
-            Configuration.browser = "com.refinitive.driverCapabilities.SelenoidWebDriverProvider";
+            Configuration.browser = "com.epam.driverCapabilities.SelenoidWebDriverProvider";
         }
 
 
