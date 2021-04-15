@@ -48,4 +48,32 @@ public class GoogleSearchTest extends BaseUiTest {
                 .fillInSearchInput("rest")
                 .iAmFeelingLuckyButtonClick();
     }
+
+    @Severity(SeverityLevel.NORMAL)
+    @Epic("QA-456 Search")
+    @Feature("QA-789 Automate cases for search page")
+    @Story("QA-123 Automate cases for search page")
+    @TmsLink(value = "1")
+    @Description("Test I am Lucky Button with epmty request")
+    @Test
+    public void testIamLuckyButtonWithEpmtyRequest() {
+        googleMainPage
+                .open()
+                .fillInSearchInput("")
+                .iAmFeelingLuckyButtonClick();
+    }
+
+    @Severity(SeverityLevel.NORMAL)
+    @Epic("QA-456 Search")
+    @Feature("QA-789 Automate cases for search page")
+    @Story("QA-123 Automate cases for search page")
+    @TmsLink(value = "1")
+    @Description("Test I am Lucky Button with epmty request")
+    @Test
+    public void testIamLuckyButton2() {
+        googleMainPage
+                .open()
+                .iAmFeelingLuckyButtonClick()
+    }
+
 }
