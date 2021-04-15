@@ -73,7 +73,7 @@ public class GoogleSearchTest extends BaseUiTest {
     public void testIamLuckyButton2() {
         googleMainPage
                 .open()
-                .iAmFeelingLuckyButtonClick()
+                .iAmFeelingLuckyButtonClick();
     }
 
 }
